@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'logger'
+require 'ostruct'
 
 class FileReader
   def initialize(path, batch_size = 1000)

@@ -5,7 +5,6 @@ require_relative '../lib/logger'
 require_relative '../lib/file_reader'
 require_relative '../lib/list_pages'
 require 'optparse'
-require 'pry'
 
 DEFAULT_BATCH_SIZE = 1000
 
